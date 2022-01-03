@@ -13,16 +13,21 @@
 2. 한글이름 x  -->
 	
 	<!-- 주소를 쓰는 2가지 방법 -->
-	<!-- <상대경로>: 상대평가 ->기준: 지금 파일이 있는 위치
-	<절대경로>: 절대평가 ->                       -->
+	<!-- <상대경로>: 상대평가 ->'나를'기준: 지금 파일이 있는 위치 / 사진의 주소를 가져다가 쓸 수 있음
+	<절대경로>: 절대평가 -> 컴퓨터 내에 사진의 주소를 씀, 계발자 마다 세팅이 다르기 때문에 절대경로는 안쓴다고 생각하기  -->
 	 
 	 <!-- 한 단계 아래로->     / 
 			한 단계 위로->    ../         -->
 	
 	<img src="./cat1.jpg" width="100px" > <!-- 상대경로/ width=가로/ height= 세로  -->
+	<br> <!-- 사진 내리고 싶으면 br tag 쓰기 -->
 	<img src="../images/cat2.jpeg" height="100px">  
 	<img src="../images/cat/cat.jpeg" width="100px" height="500px">
 	
+	<figure>
+		<img src="C:/factory/ws_sts_4130/study_html1/public/2.image/cat1.jpg"> <!-- 절대경로 -->
+		<figcaption> 놀란 고양이 입니다.</figcaption>	
+	</figure>
 	
 	
 </body>
