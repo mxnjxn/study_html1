@@ -13,16 +13,19 @@
 	2.javascript(jqery) in html -> validation check
 	3.java-->
 	
-	<form action="./form_resutl.html" id="form" name="form">
+	<form action="./form_result.html"  method="get" id="form" name="form">
 		<input type="text" id="nickname" name="nickname">
-		<input type="button" id="button" name="button" value="저출" onclik>
+		<input type="button" id="button" name="button" value="제출" onclick="here()">
 	</form>
+	<!-- button, submit??
+	onclick="here()" 더블 클릭, 원 클릭-->
 	
 	<script type="text/javascript">
 		function here() {
-			alert("nickname: " + document.getElementById("nickname").)
+			alert("nickname: " + document.getElementById("nickname").value)
 			document.getElementById("form").submit();
 		}
-	</script>
+	// alert= 확인 버튼 하나만 있는거
+ 	</script>
 </body>
 </html>
