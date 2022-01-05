@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minjun</title>
+</head>
+
+<body>
+	<!--get방식은 url에 입력한 내용이 유출 됨-->
+	<form action="./form_result.html" method="get">
+		<input types="text" id="name" name="name">
+		<input types="text" id="address" name="address">
+		<input types="text" id="phone" name="phone" autocomplete="off">
+		<input types="text" id="ssn" name="ssn">
+		<input types="text" id="name" name="name">
+		<input type="submit" value="재출하기">
+	</form>
+	
+	<form action="./form_result.html" method="post" autocomplete="off">
+		<input types="text" id="name" name="name">
+		<input types="text" id="address" name="address">
+		<input types="text" id="phone" name="phone">
+		<input types="text" id="ssn" name="ssn">
+		<input types="text" id="name" name="name">
+		<input type="submit" value="재출">
+	</form>
+	
+	<!-- autocompletes는 default -->
+	<!-- autocomplete 다 적용하고 싶을때는 form 애 하기 -->
+	<form action=""> 
+		<input type="text" autocomplete="off">
+		<input type="submit" value="재출">
+	</form>
+</body>
+</html>
