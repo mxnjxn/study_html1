@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minjun</title>
+</head>
+<body>
+	<form action="./form_result.html" method="get" id="form" name="form" enctype="multipart/form-data" oninput="x.value=parseInt(range5.value)">
+		<input type="range" id="range1" name="range1"> 
+		<br><input type="range" id="range2" name="range2" min="1"> 
+		<br><input type="range" id="range3" name="range3" max="1"> 
+		<br><input type="range" id="range4" name="range4" step="2"> 	
+		<br><input type="range" id="range5" name="range5" value="30">
+		<output name="x" for="range5">점수</output>
+		<br><input type="submit" value="제출" >	
+	</form>
+</body>
+</html>
