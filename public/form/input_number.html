@@ -8,6 +8,25 @@
 </head>
 
 <body>
-
+	<!--숫자 입력 하는거/ 가끔 영어가 입력될떄도 있다.-->
+	<!--name은 자료를 넘기기 위해 필요, id는 javascript가 연결하기 위해서-->
+	<form action="./form_result.html" method="post" id="form" name="form" enctype="multipart/form-data ">
+		<input type="number" id="number1" name="number1" min="1">
+		<br><input type="number" id="number2" name="number2" max="5">
+		<br><input type="number" id="number3" name="number3" min="1" max="6">
+		<br><input type="number" id="number4" name="number4" step="3">
+		<br><input type="number" id="number5" name="number5" value="1">
+		<br><input type="number" id="number6" name="number6" placeholder="123">
+		<br><input type="submit" value="제출">
+		
+		<p>나이</p>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		
+		
+	</form>
 </body>
 </html>
