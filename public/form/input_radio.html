@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minjun</title>
+</head>
+<body>
+	<form action="./form_result.html" method="get" id="form" name="form">
+		<!--여러개 중 하나만 선택하려면 name="" 이름을 같은 것으로 해줘야함-->
+		<!--하나만 선택할때는 checkbox를 이용함.-->
+		<input type="radio" id="gender" name="gender">
+		<label for="gender">male</label>		
+		<input type="radio" id="gender1" name="gender">
+		<label for="gender">female</label>
+		<br>
+		<input type="radio" id="radio" name="radio">
+		<input type="radio" id="radio" name="radio" checked>
+		<br>
+		<input type="radio" id="radio1" name="apprv">
+		<label for="radio1">동의</label>
+		<input type="radio" id="radio2" name="apprv">
+		<label for="radio2">비동의</label>
+		<br>
+		<input type="radio" id="" name="radio3" value="y">동의
+		<input type="radio" id="" name="radio3" value="y">비동의
+		
+		<br><input type="submit" value="제출">
+		<br><input type="reset" value="초기화">
+		
+		<!--채크된 값 하나만 출력된다.-->
+	</form>
+</body>
+</html>

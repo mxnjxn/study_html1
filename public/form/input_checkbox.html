@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minjun</title>
+</head>
+<body>
+	<form action="./form_result.html" method="get" id="form" name="form">
+		<input type="checkbox" id="checkbox" name="checkbox" required>
+		<br><input type="checkbox" id="checkbox1" name="checkbox1"  checked>
+		<br><input type="checkbox" id="checkbox2" name="checkbox2" placeholder="box"> 
+		<!-- placeholder does not work -->
+
+		<br><input type="checkbox" id="checkbox3" name="checkbox3"  checked>
+		<label for="checkbox3">약관동의</label>
+		<!--checkbox 가 chexk 되면 on 이라고 자료 전달됨 value 값이 지정되어 있지 않는한 -->
+		<br><input type="checkbox" id="checkbox4" name="hobby"  value="movie">
+		<label for="checkbox3">약관동의</label>
+		<!--여기서 value는 checkbox가 check 되면 name="value" 형태로 전달이 됨-->
+
+		<br><input type="checkbox" id="checkbox5" name="hobby"  value="music">
+		<label for="checkbox3">약관동의</label>
+		
+		<br><input type="submit" value="submit">
+		
+		
+	</form>
+</body>
+</html>
