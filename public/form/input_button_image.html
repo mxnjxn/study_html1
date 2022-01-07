@@ -8,16 +8,17 @@
 </head>
 <body>
 	<form action="./form_result.html" method="get" id="form" name="form">
+		
 		<input type="text" id="id" name="id">
 			
 		<input type="button" value="제출" onclick="here();">
-		<input type="image" src="../images/aaa/bbb/button_image.png" width="50px">
+		<input type="image" src="../images/elon_musk/Elon_Musk.png" width="50px">
 	</form>
 	
 	<script type="text/javascript">
 	// alert= 확인 버튼 하나만 있는거
 		function here() {
-			alert(" " + document.getElementById("nickname").value)
+			alert("id=" + document.getElementById("id").value)
 			document.getElementById("form").submit();
 		}
  	</script>
