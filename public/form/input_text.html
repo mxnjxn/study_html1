@@ -9,7 +9,7 @@
 
 <body>
 	<!--action는 다음으로 넘어가는 페이지??-->
-	<form action="" method="get" id="form" name="" enctype="multipart/form-data"/>
+	<form action="" method="get" id="form" name="" enctype="multipart/form-data">
 		아이디= <input type="text" id="id1" name="아이디는"/>
 		<br>아이디= <input type="text" id="id2" name="id2" size="50">
 		<br>아이디= <input type="text" id="" name="" maxlength="20">
@@ -18,8 +18,17 @@
 		<br>아이디= <input type="text" id="" name="" size="50" placeholder="" value="hello world">
 		<br>아이디= <input type="text" id="" name="" size="50" autofocus="autofocus">
 		
-		<br><input type="button" id="button" name="button" value="재출" onclick="here();">
+		<input type="text" id="" name="" size="50" autofocus="autofocus" value="tony" readonly>
+		<!--read only 는 아이디나 비밀번호처럼 쉽게 고치면 안된느거 -->
+		<input type="text" id="" name="" size="50" autofocus="autofocus" value="tony" disabled>
 		
+		<p>여기서부터 hidden</p>
+		<input type="hidden" id="" name="" value="yes">
+		<p>여기까지</p>
+		<!-- 화면상에서 보여지지 않아도되는 데이터 값을 넘길때 쓰임 -->
+		
+		<br><input type="button" id="button" name="button" value="재출" onclick="here();">
+	</form>
 		<script type="text/javascript">
 		function here() {
 			alert("아이디: " + document.getElementById("id2").value)
