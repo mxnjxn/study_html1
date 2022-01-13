@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minjun</title>
+</head>
+<body onload="init();">
+	<!-- <video src="./samplevideo.mp4"></video> --> <!--이 대로 하면 아무것도 안나옴-->
+	<video src="./samplevideo.mp4" controls="controls" width="600px;"></video>
+	<video src="./samplevideo.mp4" controls="controls" width="600px;" loop></video>
+	<video src="./samplevideo.mp4" controls="controls" width="600px;" autoplay muted></video> <!--autoplay 에 muted 넣으면 자동 재생 소리는 나오지 안ㅇㅎ음.-->
+	<video src="./samplevideo.mp4" controls="controls" width="600px;" autoplay></video> <!--autoplay 에 muted 넣으면 자동 재생 소리는 나오지 안ㅇㅎ음.-->
+	
+	<!--동영ㅅㅇ 확장자/ 지원하지 않는 브라우저에서 틀기위해-->
+	<video>
+		<source src="./samplevideo.mp4">
+		<source src="./samplevideo.webm">
+		<source src="./samplevideo.egg">
+		본 영상은 크롬 또는 html를 지원하는 브라우저 에서만 재생이 가능합니다.
+	</video>
+	
+	
+</body>
+</html>
