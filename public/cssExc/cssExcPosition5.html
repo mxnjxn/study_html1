@@ -16,7 +16,7 @@
 			height: 100px;
 			background-color:blue;
 			
-			position:absolute; /* 제일 꼭짓점에서*/
+			/* position:absolute; */ /* 제일 꼭짓점에서*/
 			position:relative; /* 원래 있어야 할 자리에서 이동. */
 			top:50px;
 			left: 50px;
@@ -29,14 +29,20 @@
 		#ddd{
 			background-color: orange;
 			position: absolute;
-			top:300px;
-			left:300px;			
+			top:3px;
+			left:3px;			
 		}
 		
-		
+		#eee{
+			position: absolute;
+			top:3px;
+			left:5px;
+		}
+		/*absoulte 로 하면 inline tag으로 속성이 바뀜.  */
+		/*absolute 와 relative 가 같이 쓰여져야함. relative 안에 absolute가 움직인다.  */
 	</style>
 </head>
-<body>
+<body id="eee">
 	<div id="ddd">
 		<div id="aaa">오뤙</div>
 		<div id="bbb">오오러</div>
