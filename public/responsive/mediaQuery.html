@@ -11,20 +11,50 @@
 		h3 {
 			color:red;
 		}
+		
+		table, tr, td{
+			border: solid;
+			border-width:1px;
+			border-collapse:collapse;
+			border-color:blue;
+		}
 	}
-	@media screen and (min-widht: 768px) and (max-width: 1023px) {
+	@media screen and (min-width: 768px) and (max-width: 1023px) {
 		h3 {
 			color:blue;
 		}
+		
+		table, tr, td{
+			border: solid;
+			border-width:1px;
+			border-collapse:collapse;
+			border-color: red;
+			text-align:center; 
+		}
 	}
+	
 	@media screen and (min-width:480px) and (max-width: 767px) {
 		h3 {
 			color:green;
+		}
+		
+		table, tr, td{
+			border: solid;
+			border-width:1px;
+			border-collapse:collapse;
+			border-color: yellow;
 		}
 	}
 	@media screen and (max-width: 479px) {
 		h3 {
 			color:yellow;
+		}
+		
+		table, tr, td{
+			border: solid;
+			border-width:1px;
+			border-collapse:collapse;
+			border-color:green;
 		}
 	}
 	
@@ -33,5 +63,25 @@
 </head>
 <body>
 	<h3>media query test</h3>
+	<table>
+		<tr>
+			<td>sdfsdfsaf</td>
+			<td>asdfasdfs</td>
+			<td>asdfasdfsf</td>
+			<td>asdfsadf</td>
+		</tr>
+		<tr>
+			<td>asdfsadfsadf</td>
+			<td>asdfasdfas</td>
+			<td>asdfadfasfd</td>
+			<td>asdfadsfsadf</td>
+		</tr>
+		<tr>
+			<td>sadfasdfsdf</td>
+			<td>asdfasdfsadf</td>
+			<td>asdfasdfasdfsad</td>
+			<td>asdfsadfsdfsd</td>
+		</tr>
+	</table>
 </body>
 </html>
